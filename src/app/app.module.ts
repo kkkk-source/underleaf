@@ -7,28 +7,20 @@ import { AppRoutingModule } from './app.routing';
 import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
-import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
-import { LoginComponent } from './login/login.component';
-
 import { ResearchPageComponent } from './pages/research-page/research-page.component';
+import { TaskPageComponent } from './pages/task-page/task-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent,
-    LandingComponent,
-    ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent,
-    ResearchPageComponent
+    ResearchPageComponent,
+    TaskPageComponent
   ],
   imports: [
     CommonModule,

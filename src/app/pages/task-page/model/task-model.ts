@@ -1,8 +1,6 @@
-import { UserModel } from './user-model';
-
 export interface TaskModel {
 	id: number,
 	title: string,
-	users: Array<UserModel>,
+	users: Array<string>,
 	state: string
 }

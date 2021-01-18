@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ResearchModel } from './model/research-model';
-//import { TaskModel } from './model/task-model';
-//import { UserModel } from './model/user-model';
 
 @Component({
   selector: 'research-page',
@@ -9,7 +7,7 @@ import { ResearchModel } from './model/research-model';
 })
 export class ResearchPageComponent implements OnInit {
 
-	private research: Array<ResearchModel> = [];
+	private research: Array<ResearchModel>;
 
 	ngOnInit(): void {
 		this.research = [
