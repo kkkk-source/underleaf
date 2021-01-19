@@ -7,20 +7,13 @@ import { ResearchModel } from './model/research-model';
 })
 export class ResearchPageComponent implements OnInit {
 
-	private research: Array<ResearchModel>;
+	research: Array<ResearchModel>;
 
 	ngOnInit(): void {
 		this.research = [
-			{ "id": 0, "title": "Investigacion A", "description": "Lorem ipsum dolor sit amet", "state": "Working on it" },
-			{ "id": 1, "title": "Investigacion B", "description": "Lorem ipsum dolor sit amet", "state": "Done" },
-			{ "id": 2, "title": "Investigacion C", "description": "Lorem ipsum dolor sit amet", "state": "Stuck" },
+			{ "id": 0, "title": "Investigación A", "description": "Lorem ipsum dolor sit amet", "state": "Trabajando en ello" },
+			{ "id": 1, "title": "Investigación B", "description": "Lorem ipsum dolor sit amet", "state": "Hecho" },
+			{ "id": 2, "title": "Investigación C", "description": "Lorem ipsum dolor sit amet", "state": "Atascado" },
 		];
 	}
-
-
-/*  tasks: Array<TaskModel> = [
-	  { "id": 0, "title": "Redefinir Objetivos", "users": [ {"id": 0, "name": "carlos"} ], "state": "on" },
-	  { "id": 1, "title": "Redefinir Objetivos", "users": [ {"id": 0, "name": "carlos"} ], "state": "on" },
-	  { "id": 2, "title": "Redefinir Objetivos", "users": [ {"id": 0, "name": "carlos"} ], "state": "on" },
-  ]; */
 }
