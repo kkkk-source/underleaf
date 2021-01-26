@@ -19,9 +19,9 @@ export class TaskPageComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.tasks = [
-			{ "id": 0, "title": "Redefinir Objetivos",  "users": [ "logic", " elijah" ], "state": "Aprovado" },
-			{ "id": 1, "title": "Usar Referencias",     "users": [ "cole", " savage" ], "state": "Aprovado" },
-			{ "id": 2, "title": "Identificar Recursos", "users": [ "pete", " smooth" ], "state": "Aprovado" },
+			{ "id": 0, "title": "Redefinir Objetivos",  "users": [ "logic", " elijah" ], "state": "Aprobado" },
+			{ "id": 1, "title": "Usar Referencias",     "users": [ "cole", " savage" ], "state": "Aprobado" },
+			{ "id": 2, "title": "Identificar Recursos", "users": [ "pete", " smooth" ], "state": "Aprobado" },
 		];
 		this.researchs = [
 			{ "id": 0, "title": "Investigación A", "description": "Lorem ipsum dolor sit amet", "state": "Trabajando en ello" },
